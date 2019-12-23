@@ -1,0 +1,66 @@
+body {
+    font-family: -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", sans-serif;
+}
+.col-xs-1, .col-sm-1, .col-md-1, .col-lg-1, .col-xs-2, .col-sm-2, .col-md-2, .col-lg-2, .col-xs-3, .col-sm-3, .col-md-3, .col-lg-3, .col-xs-4, .col-sm-4, .col-md-4, .col-lg-4, .col-xs-5, .col-sm-5, .col-md-5, .col-lg-5, .col-xs-6, .col-sm-6, .col-md-6, .col-lg-6, .col-xs-7, .col-sm-7, .col-md-7, .col-lg-7, .col-xs-8, .col-sm-8, .col-md-8, .col-lg-8, .col-xs-9, .col-sm-9, .col-md-9, .col-lg-9, .col-xs-10, .col-sm-10, .col-md-10, .col-lg-10, .col-xs-11, .col-sm-11, .col-md-11, .col-lg-11, .col-xs-12, .col-sm-12, .col-md-12, .col-lg-12 {
+	padding-left:5px;
+	padding-right:5px;
+}
+/*a {
+	color: #666;
+}*/
+.tab-content {
+	max-height: 305px;
+	overflow: hidden;
+}
+#slide1 {
+	margin-bottom: 5px;
+}
+/*重新定义bootstrap中的导航条的高度的下边距*/
+.navbar {
+	min-height: 35px;
+	margin-bottom: 0;
+	border-radius: 0;
+}
+.nav>li>a {
+	font-size: 16px;
+	color: #fff;
+}
+.nav>li>a:hover {
+	color: #f00;
+}
+.row {
+	margin-top: 10px;
+}
+.panel {
+	min-height: 305px;
+	margin-bottom: 10px;
+}
+.panel-heading {
+	font-size: 16px;
+}
+.panel-body {
+	margin-left: 5px;
+}
+.panel-body li {
+	height: 24px;
+	line-height: 24px;
+}
+.carousel-caption {
+	bottom: 0;
+	background-color: rgba(0,0,0,0.2);
+	padding: 5px;
+	left: 0;
+	right: 0;
+}
+.more {
+	position: absolute;
+	right: 15px;
+	top: 5px;
+}
+#logo {
+	padding-bottom: 10px;
+	padding-top: 15px;
+}
+.footer {
+	margin-top: 10px;
+}
